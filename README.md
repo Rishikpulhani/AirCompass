@@ -166,3 +166,7 @@ Options: `AIRCOMPASS_SNAPSHOT_GLASS=0.3,optical` (background, `frosted`, `optica
 - Peer links use plain TCP over Wi-Fi/AWDL without TLS. Fine on a home network; not hardened for hostile ones.
 - Received files land in `~/Downloads` on the Mac and in Files › On My iPhone/iPad › AirCompass on iOS.
 - Optical glass captures and redraws at 60 fps while the HUD is on screen, so it costs more battery than Apple's glass.
+
+## License
+
+[MIT](LICENSE). The optical glass shader is adapted from [Caustic](https://github.com/Oxkai/liquid-glass), also MIT.
