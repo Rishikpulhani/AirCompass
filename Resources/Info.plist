@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>AirCompass</string>
+	<key>CFBundleExecutable</key>
+	<string>AirCompass</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.aircompass.AirCompass</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AirCompass</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>AirCompass reads the files you have selected in Finder so a 3-finger gesture can send them.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>AirCompass uses Bluetooth to find nearby devices and estimate which direction they are in.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_aircompass._tcp</string>
+	</array>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>AirCompass discovers nearby Macs over the local and peer-to-peer network to send them files.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>AirCompass uses your Mac's heading to place nearby devices on the compass.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>AirCompass listens for short ultrasonic chirps from other Macs to work out which direction they are in.</string>
+	<key>NSNearbyInteractionUsageDescription</key>
+	<string>AirCompass uses a paired iPhone's Ultra Wideband sensor to locate nearby devices precisely.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>

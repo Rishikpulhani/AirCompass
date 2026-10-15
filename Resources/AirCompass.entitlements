@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- The sandbox blocks dlopen of private frameworks (MultitouchSupport)
+	     and arbitrary Finder automation, so the app runs unsandboxed. -->
+	<key>com.apple.security.app-sandbox</key>
+	<false/>
+	<!-- Hardened runtime: allow sending AppleEvents (Finder selection). -->
+	<key>com.apple.security.automation.apple-events</key>
+	<true/>
+	<!-- Hardened runtime: microphone for acoustic positioning (listener role). -->
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+</dict>
+</plist>
